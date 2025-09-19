@@ -1,0 +1,27 @@
+@usecase_01_call_external_api_HostAddress = http://localhost:5026
+
+GET {{usecase_01_call_external_api_HostAddress}}/api/posts
+Accept: application/json
+###
+
+@postId = 21
+GET {{usecase_01_call_external_api_HostAddress}}/api/posts/{{postId}}
+Accept: application/json
+
+###
+POST {{usecase_01_call_external_api_HostAddress}}/api/posts
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "This is my first post",
+    "body": "on GenAi"
+}
+###
+
+GET {{usecase_01_call_external_api_HostAddress}}/api/users
+Accept: application/json
+###
+
+GET {{usecase_01_call_external_api_HostAddress}}/api/posts/234
+Accept: application/json
