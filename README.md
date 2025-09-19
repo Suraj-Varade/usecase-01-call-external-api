@@ -12,18 +12,7 @@ This project is part of my personal "Use Cases" series, where I practice common 
 
 ## 📂 Project Structure
 
-<img width="1091" height="231" alt="image" src="https://github.com/user-attachments/assets/e993947e-5c6f-4b11-81b1-befd12fd9e08" />
-
-├── Abstractions/             # Interface
-├── Clients/                  # HTTP client
-├── Controllers/              # Posts/Users Controller
-├── DTOs/                     # CreatePostDto
-├── Errors/                   # ApiErrorResponse
-├── Extensions/               # ApplicationServiceExtensions - service registrations
-├── Middlewares/              # RequestLoggingMiddleware
-├── Models/                   # Models for post, user
-├── Programs.cs               # Start, service/Middleware registrations
-└── usecase-01-call-external-api.http  # API testing file
+<img width="1091" height="500" alt="image" src="https://github.com/user-attachments/assets/e993947e-5c6f-4b11-81b1-befd12fd9e08" />
 
 --- 
 
