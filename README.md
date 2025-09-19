@@ -44,6 +44,7 @@ This project is part of my personal "Use Cases" series, where I practice common 
    ```bash
    dotnet restore
    dotnet run
+   
    Or
    open the solution file (.sln) in Visual Studio, Visual Studio Code, or Rider, and run the project from there. 
 
