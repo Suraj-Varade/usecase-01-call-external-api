@@ -40,15 +40,15 @@ This project is part of my personal "Use Cases" series, where I practice common 
    ```bash
    cd usecase-01-call-external-api
 
-4. Restore & Run the project:
+3. Restore & Run the project:
    ```bash
    dotnet restore
    dotnet run
    
 Or
-open the solution file (.sln) in Visual Studio, Visual Studio Code, or Rider, and run the project from there. 
+   open the solution file (.sln) in Visual Studio, Visual Studio Code, or Rider, and run the project from there. 
 
-5. Test endpoints using Swagger UI or the provided .http file.
+4. Test endpoints using Swagger UI or the provided .http file.
 
 ---
 
