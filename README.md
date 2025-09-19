@@ -45,10 +45,10 @@ This project is part of my personal "Use Cases" series, where I practice common 
    dotnet restore
    dotnet run
    
-   Or
-   open the solution file (.sln) in Visual Studio, Visual Studio Code, or Rider, and run the project from there. 
+Or
+open the solution file (.sln) in Visual Studio, Visual Studio Code, or Rider, and run the project from there. 
 
-6. Test endpoints using Swagger UI or the provided .http file.
+5. Test endpoints using Swagger UI or the provided .http file.
 
 ---
 
