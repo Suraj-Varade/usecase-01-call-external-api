@@ -12,6 +12,8 @@ This project is part of my personal "Use Cases" series, where I practice common 
 
 ## 📂 Project Structure
 
+<img width="1091" height="231" alt="image" src="https://github.com/user-attachments/assets/e993947e-5c6f-4b11-81b1-befd12fd9e08" />
+
 ├── Abstractions/             # Interface
 ├── Clients/                  # HTTP client
 ├── Controllers/              # Posts/Users Controller
@@ -46,15 +48,17 @@ This project is part of my personal "Use Cases" series, where I practice common 
    git clone https://github.com/suraj-varade/usecase-01-call-external-api.git
 
 2. Navigate to project:
+   ```bash
    cd usecase-01-call-external-api
 
-3. Restore & Run the project:
+4. Restore & Run the project:
+   ```bash
    dotnet restore
    dotnet run
    Or
    open the solution file (.sln) in Visual Studio, Visual Studio Code, or Rider, and run the project from there. 
 
-5. Test endpoints using Swagger UI or the provided .http file.
+6. Test endpoints using Swagger UI or the provided .http file.
 
 ---
 
@@ -76,5 +80,3 @@ This project is part of my personal "Use Cases" series, where I practice common 
 
 ## 📜 License
 - This project is licensed under the MIT License. See the LICENSE file.
-
-Note: Circuit breaker pattern not implemented in this version
